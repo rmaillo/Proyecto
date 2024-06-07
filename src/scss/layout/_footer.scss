@@ -1,0 +1,20 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.footer {
+    background-color: v.$black;
+    bottom: 0;
+    color: v.$white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+
+    a {
+        color: v.$white;
+        font-size: 1.6rem;
+    }
+    &:hover {
+        color: v.$lightGrey;
+    }
+}

@@ -1,0 +1,49 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.header {
+    background-color: v.$black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    @include m.tablet {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 20% 65% 15%;
+        justify-content: space-between; 
+        padding: 0 2rem 0 2rem;
+    }
+    
+}
+
+.logo {
+    color: v.$white;
+    text-align: center;
+    @include m.tablet {
+        padding-left: 2rem;
+        text-align: left;
+    }
+}
+
+.menu {
+        display: flex;
+        justify-content: space-evenly;
+
+    a {
+        color: v.$white;
+        font-size: 1.6rem;
+    }
+    &:hover {
+        color: v.$lightGrey;
+    }
+}
+
+.session {
+    color: v.$white;
+    text-align: center;
+    @include m.tablet {
+        padding-right: 3rem;
+        text-align: end;
+    }
+    
+}

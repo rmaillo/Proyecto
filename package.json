@@ -1,0 +1,22 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Proyecto HTML, CSS, JAVASCRIPT, PHP, MYSQL",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SASS",
+    "JAVASCRIPT",
+    "PHP",
+    "MYSQL"
+  ],
+  "author": "Ruben Maillo Veiga",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.4"
+  }
+}
