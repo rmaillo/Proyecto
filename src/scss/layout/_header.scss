@@ -41,6 +41,9 @@
 .session {
     color: v.$white;
     text-align: center;
+    h6 {
+        margin: 2rem;
+    }
     @include m.tablet {
         padding-right: 3rem;
         text-align: end;

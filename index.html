@@ -9,19 +9,13 @@
 <body>
     
     <header class="header">
-        <div class="logo">
-            <h1>Proyecto</h1>
+         <div class="logo">
+            <h1>Logo</h1>
         </div>
         <div class="menu">
-                <div>
-                    <a href="">Torneos</a>
-                </div>
-                <div>
-                    <a href="">Quedadas</a>
-                </div>
-                <div>
-                    <a href="">Demos</a>
-                </div>
+            <a href="">Torneos</a>
+            <a href="">Quedadas</a>
+            <a href="">Demostraciones</a>               
         </div>
         <div class="session">
             <h6>Entrar</h6>
@@ -29,39 +23,97 @@
     </header>
 
     <div class="container-register">
-        <form action="">
+        <form class="register-form" action="">
             <fieldset>
                 <legend>
                     <button type="button" class="close-btn">X</button>
                 </legend>
                 <h5>Entrar</h5>
-                <label for="">Email</label>
-                <input type="text" placeholder="Email">
-                <label for="">Password</label>
-                <input type="password" placeholder="Password">
-                <div class="container-register-btn">
-                    <button type="button" id="register-btn">Entrar</button>
+                <div class="register-data">
+                    <label for="">Email:</label>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="register-data">
+                    <label for="">Password:</label>
+                    <input type="password" placeholder="Password">
                 </div>
                 
-                <p>Recuperar contraseña</p>
+                <div class="container-register-btn">
+                    <button type="button" id="start-btn">Entrar</button>
+                </div>
+                
                 <p>¿No eres mienbro? <span>Registrate</span> </p>
 
             </fieldset>
         </form>
     </div>
 
-    <section>
+    <div class="eventos">
+        <section class="tournaments">
+            <h4>Torneos</h4>
+            <div class="torneo">
+                <img src="" alt="torneo1">
+                <h5>Torneo1</h5>
+                <h6>29/06/2024</h6>
+            </div>
+            <div class="torneo">
+                <img src="" alt="torneo2">
+                <h5>Torneo2</h5>
+                <h6>29/06/2024</h6>
+            </div>
+            <div class="torneo">
+                <img src="" alt="torneo3">
+                <h5>Torneo3</h5>
+                <h6>29/06/2024</h6>
+            </div>
+        </section>
 
-    </section>
+        <section class="quedadas">
+            <h4>Quedadas</h4>
+
+            <div class="quedada">
+                <img src="" alt="quedada1">
+                <h5>Quedada1</h5>
+                <h6>29/06/2024</h6>
+            </div>
+            <div class="quedada">
+                <img src="" alt="quedada2">
+                <h5>Quedada2</h5>
+                <h6>29/06/2024</h6>
+            </div>
+            <div class="quedada">
+                <img src="" alt="quedada3">
+                <h5>Quedada3</h5>
+                <h6>29/06/2024</h6>
+            </div>
+        </section>
+
+        <section class="demostraciones">
+            <h4>Demostraciones</h4>
+            <div class="demostracion">   
+                <img src="" alt="demo1">
+                <h5>Demo1</h5>
+                <h6>29/06/2024</h6>
+            </div>
+            <div class="demostracion">
+                <img src="" alt="demo2">
+                <h5>Demo2</h5>
+                <h6>29/06/2024</h6>
+            </div>
+            <div class="demostracion">
+                <img src="" alt="demo3">
+                <h5>Demo3</h5>
+                <h6>29/06/2024</h6>
+            </div>
+        </section>
+    </div>
 
     <footer class="footer">
-        <div>
-            <h6>Quien soy</h6>
-        </div>
-        <div>
-            <h6>Soporte</h6>
-            <a href="">Contacto</a>
-        </div>
+        <div class="nav-footer">      
+            <a href="">Quien soy</a>
+            <a href="">Contacto</a>    
+        </div>      
+        <p>Todos los derechos reservados @</p>
     </footer>
 
 </body>
