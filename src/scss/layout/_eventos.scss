@@ -1,0 +1,41 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.principal {
+    margin-top: 24rem;
+    margin-bottom: 9rem;
+    @include m.tablet {
+        margin-top: 16rem;
+    }
+}
+.container-eventos {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.title-event {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.torneos, .quedadas, .demostraciones {
+    margin-bottom: 2rem;
+    @include m.tablet {
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+    }
+}
+
+h4, h5, h6 {
+    text-align: center;
+    margin: .5rem;
+    padding: .5rem 0 .5rem 0;
+}
+
+.torneo, .quedada, .demostracion {
+    display: grid;
+    img {
+        justify-self: center;
+        max-width: 200px;
+    }
+}
