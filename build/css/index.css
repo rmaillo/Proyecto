@@ -440,11 +440,15 @@ img {
 
 .footer {
   background-color: #000000;
-  bottom: 0;
   color: #FFFFFF;
   height: 8rem;
-  position: fixed;
   width: 100%;
+}
+@media (min-width: 768px) {
+  .footer {
+    bottom: 0;
+    position: fixed;
+  }
 }
 .footer .nav-footer {
   display: flex;
@@ -466,10 +470,10 @@ img {
 
 .principal {
   margin-top: 24rem;
-  margin-bottom: 9rem;
 }
 @media (min-width: 768px) {
   .principal {
+    margin-bottom: 9rem;
     margin-top: 16rem;
   }
 }

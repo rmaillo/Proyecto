@@ -3,9 +3,10 @@
 
 .principal {
     margin-top: 24rem;
-    margin-bottom: 9rem;
     @include m.tablet {
+        margin-bottom: 9rem;
         margin-top: 16rem;
+        
     }
 }
 .container-eventos {

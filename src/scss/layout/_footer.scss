@@ -3,11 +3,14 @@
 
 .footer {
     background-color: v.$black;
-    bottom: 0;
+    
     color: v.$white;
     height: 8rem;
-    position: fixed;
     width: 100%;
+    @include m.tablet {
+        bottom: 0;
+        position: fixed;
+    }
 
     .nav-footer {
         display: flex;
